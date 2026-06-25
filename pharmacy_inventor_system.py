@@ -1,4 +1,4 @@
-# P.S.) This System took me 30min or so. I wanted to test if I understood it. And yes, I do
+# P.S.) This System took me 30min or so. I wanted to test if I understood it. And yes, I do.
 
 
 medicine_stock = {
