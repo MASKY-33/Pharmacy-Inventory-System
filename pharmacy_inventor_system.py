@@ -1,4 +1,4 @@
-# P.S.) This System took me 30min or so. I wanted to test if I understood it. And yes, I do.
+# P.S.) This System took me 30min or so. I wanted to test if I understood the architecture (datastreaming), And yes, I do.
 
 
 medicine_stock = {
@@ -17,7 +17,7 @@ def night_pharmacy(medicine):
         return f"{medicine} sits inside {cabinet_check}"
     else:
         return f"{medicine} not yet in stock!"
-
+        
 
 # Continue looping headprogram for searching mecicine and in which cabinet they sit in
 while True:
