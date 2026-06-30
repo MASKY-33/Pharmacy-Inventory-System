@@ -21,13 +21,13 @@ def night_pharmacy(medicine):
 
 # Continue looping headprogram for searching mecicine and in which cabinet they sit in
 while True:
-    search_medicine = input("Give in the name of the medicine, (or type 'stop' to stop): ").lower()
+    medicine_name = input("Give in the name of the medicine, (or type 'stop' to stop): ").lower()
 
     # Checking (if) person types "stop", (if) so, end the System by (break)
-    if search_medicine == "stop":
+    if medicine_name == "stop":
         print("Bye, see you next time!")
         break
     
     # Call the function to give the asked medicine
-    system_result = night_pharmacy(search_medicine)
+    system_result = night_pharmacy(medicine_name)
     print(system_result)
